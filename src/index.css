@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.wallpaperscraft.com/image/single/clouds_sky_nature_1062645_3840x2160.jpg");
+  display: flex;
+  justify-content: center;
 }
 
+
+/* https://cutewallpaper.org/23/beautiful-night-forest-wallpaper/3119426337.jpg */
+/* https://www.willseye.org/wp-content/uploads/2017/08/clouds-and-blue-sky-1920x1200-digital-art-wallpaper.jpg */
+/* https://images.wallpaperscraft.com/image/single/mountains_trees_sun_1099612_2560x1600.jpg */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
