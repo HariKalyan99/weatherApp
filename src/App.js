@@ -22,6 +22,7 @@ function App(){
   const [isLoading, setIsLoading] = useState(false);
 
   const performApi = async (text) => {
+    
     setIsLoading(true);
     try {
       if(text.length > 0){
@@ -37,6 +38,7 @@ function App(){
         setForecastData({...forecast});
         setApi(true);
         setIsLoading(false);
+        setNoMatch("");
       }
       }else{
         setApi(false);
@@ -1336,7 +1338,8 @@ function App(){
     },
     {
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg",
-      "country": "United States of America"
+      "country": "United States of America",
+
     },
     {
       "flag": "https://twemoji.maxcdn.com/2/svg/1f1fe-1f1f9.svg",
