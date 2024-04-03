@@ -9,10 +9,7 @@ import UpdateIcon from '@mui/icons-material/Update';
 import NearMeIcon from '@mui/icons-material/NearMe';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import EventRepeatIcon from '@mui/icons-material/EventRepeat';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
+
 
 
 export default function BasicCard({location, current, foreCast, countryName, forecastAstro}) {
